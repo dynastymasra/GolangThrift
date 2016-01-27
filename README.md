@@ -8,7 +8,7 @@ Golang (Go Programming Language) microservice with Apache Thrift
 
 #### Install
 * Golang (Go Programming Language) <a href="https://golang.org/" target="_blank">Golang</a>
-* Thrift (Go Programming Language) <a href="https://thrift.apache.org/" target="_blank">Apache Thrift</a>
+* Apache Thrift  <a href="https://thrift.apache.org/" target="_blank">Apache Thrift</a>
 
 ####Generate Thrift
 * thrift --gen go filename.thrift
