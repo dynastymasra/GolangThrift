@@ -1,0 +1,27 @@
+# Go with Apache Thrift
+
+[![Go](https://img.shields.io/badge/Go-1.4-00E5E6.svg)](https://golang.org/)
+[![Thrift](https://img.shields.io/badge/Apache%20Thrift-0.9.3-yellow.svg)](https://thrift.apache.org/)
+
+Golang (Go Programming Language) microservice with Apache Thrift
+
+#### Install
+* Golang (Go Programming Language) <a href="https://golang.org/" target="_blank">Golang</a>
+* Thrift (Go Programming Language) <a href="https://thrift.apache.org/" target="_blank">Apache Thrift</a>
+
+####Generate Thrift
+* thrift --gen go <filename>.thrift
+
+#### Golang workspaces
+* bin/
+* pkg/
+* src/
+
+#### GOPATH environment varibale
+* $ export GOPATH=$HOME/<workspaces>
+* $ export PATH=$PATH:$GOPATH/bin
+
+#### Import library
+* go get git.apache.org/thrift.git/lib/go/thrift/...
+* go build github.com/dynastymasra/package_name or library_name < This won't produce an output file
+* go install github.com/dynastymasra/package_name or library_name
