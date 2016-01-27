@@ -18,7 +18,7 @@ Golang (Go Programming Language) microservice with Apache Thrift
 * pkg/
 * src/
 
-#### GOPATH environment varibale
+#### GOPATH environment variable
 * $ export GOPATH=workspaces
 * $ export PATH=$PATH:$GOPATH/bin
 
